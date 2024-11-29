@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+body{
+    background-color: #0B0F1F;
+    font-family: 'Barlow', sans-serif;
+}
+.navebar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F1D2B;
+  color: white;
+  padding: 15px;
+  font-size: 30px;
+  margin: 20px;
+  width: 1450px;border-radius: 10px;
+}
+.navebar p{
+  color: #39973D;
+  font-size: 30px;
+  font-weight: bold;
+}
+.navebar h3 {
+  font-weight: bold;
+}
+
+.order-details {
+  background-color: #2A2A38;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 15px 15px;
+  }
+  .app {
+    display: flex;
+    gap: 16px; /* Space between boxes */
+  }
+  label p{
+  display: flex;
+  justify-content: space-between;
+ }
+  
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .Header h2 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .onsite-button {
+    padding: 8px 32px;
+    background-color: #5678E9;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+}
+  
+  .onsite-button:hover {
+    background-color: #45a049;
+  }
+  .item-list {
+    margin-top: 8px;
+  }
+  
+
+  
+  /* Order Info Section */
+  .order-info {
+    margin-bottom: 20px;
+  }
+  .field1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333748;
+    padding-bottom: 15px;
+  }
+  
+  .field1 label {
+    flex: 1;
+    text-align: left;
+    /* font-weight: bold; */
+  }
+  
+  .field1 p {
+    margin: 0;
+  }
+  
+  .circle {
+    display: inline-block;
+    background-color: #2D303E; 
+    color: #fff; 
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 30px; 
+    /* font-weight: bold; */
+  }
+  .circle2{
+    display: inline-block;
+    background-color: #2D303E; 
+    color: #5678E9; 
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 30px; 
+    /* font-weight: bold; */
+
+  }
+  
+  
+  .field {
+    /* display: flex; */
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333748;
+  }
+  
+  .field label {
+    font-weight: bold;
+    color: #ddd;
+  }
+  
+  .field span {
+    color: #ccc;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+
+
+  
+  /* Item List */
+  .item-list {
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  
+  .item-button {
+    background-color: #252836;
+    padding: 7px 25px;
+    margin: 5px;
+    border: 1px solid #ABBBC2 ;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* Order Status Section */
+  .order-status {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .status {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    /* font-weight: bold; */
+  }
+  
+  .status.inprogress {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  .status.delivered {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+
+  /* Button Styles */
+  .delivered-button {
+    width: 400px;
+    padding: 10px 20px;
+    background-color: #CA923D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .delivered-button:hover {
+    background-color: #ff9900;
+  }
+  
+  /* Button Disabled */
+  .delivered-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
